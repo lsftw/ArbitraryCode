@@ -7,7 +7,7 @@ def connectTo(host, port):
 	return s
 
 def main():
-	host = 'localhost'
+	host = '129.2.209.207'
 	port = 50000
 	s = connectTo(host, port)
 	# send messages
